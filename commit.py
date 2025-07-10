@@ -23,3 +23,4 @@
 # feat (basic_operations): add basic arithmetic operations
 # fix (future_age_calculator): correct future age calculation logic
 # fix (finance_calculator): correct savings calculation logic
+# fix (simple_interest): fix interest calculation logic
