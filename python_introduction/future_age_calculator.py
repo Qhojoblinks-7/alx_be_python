@@ -3,11 +3,11 @@
 
 # Prompt the user to input their current age with the question: “How old are you? ”
 
-currentAge = int(input("How old are you? "))
+current_age = int(input("How old are you? "))
 # Prompt the user to input the number of years they want to add with the question: “How many years do you want to add? ”
 
-currentYear = 2025
-futureYear = 2050
+current_year = 2025
+future_year = 2050
 
-futureAge = currentAge + (futureYear - currentYear)
-print("In the year " + str(futureYear) + ", you will be " + str(futureAge) + " years old.")
+future_age = current_age + (future_year - current_year)
+print("In the year " + str(future_year) + ", you will be " + str(future_age) + " years old.")
