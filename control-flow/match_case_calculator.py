@@ -1,7 +1,7 @@
 # This is a simple calculator using match-case statements to perform basic arithmetic operations.
 # 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
 operation = input("Choose operation (+, -, *, /): ").strip()
 
 match operation:

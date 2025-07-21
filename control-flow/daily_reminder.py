@@ -4,9 +4,9 @@
 # and its priority level
 
 print("Daily Reminder Program")
-task = input("Enter your task for today: ").strip()
-time_bound = input("Is this task time-sensitive? (yes/no): ").strip().lower()
-priority = input("Enter the priority level of the task (high/medium/low): ").strip().lower()
+task = input("Enter your task : ").strip()
+time_bound = input("Is this task time-bound? (yes/no): ").strip().lower()
+priority = input("(high/medium/low): ").strip().lower()
         
         
 while True:

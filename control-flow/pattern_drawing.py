@@ -3,7 +3,7 @@
 # It uses a while loop to iterate the rows and a for loop to iterate the * characters in each row.
 
 print("Pattern Drawing")
-size = int(input("Enter the size of the pattern (number of rows and columns): "))
+size = int(input("Enter the size of the pattern: "))
 row = 0
 while row < size:
     col = 0
