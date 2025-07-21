@@ -1,8 +1,8 @@
 # This is a simple calculator using match-case statements to perform basic arithmetic operations.
 # 
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number: "))
-operation = input("Choose the operation (+, -, *, /): ").strip()
+num1 = int(input("Enter the first number:"))
+num2 = int(input("Enter the second number:"))
+operation = input("Choose the operation (+, -, *, /):").strip()
 
 match operation:
     case '+':
@@ -24,7 +24,4 @@ match operation:
         print("Invalid operation. Please enter +, -, *, or /.")
         
         
-        # commit messages
-        # feat: Implemented a simple calculator using match-case statements
-        # refactor: Simplified the calculator logic and improved error handling
-        # docs: Added comments to explain the calculator functionality
+        
