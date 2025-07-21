@@ -3,12 +3,8 @@
 
 
 print("Multiplication Table")
-num = int(input("Enter a number to see its multiplication table: "))
+number = int(input("Enter a number to see its multiplication table: "))
 for i in range(1, 11):
-    product = num * i
-    print(f"{num} x {i} = {product}")
+    print(f"{number} * {i}  = {number * i}")
 
-
-# commit messages
-# feat: Implemented a multiplication table using nested loops
-# refactor: Simplified the multiplication logic and improved output formatting
+fix: corrected the printinhg statement for consistency.
