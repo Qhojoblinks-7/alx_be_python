@@ -4,9 +4,9 @@
 # and its priority level
 
 print("Daily Reminder Program")
-task = input("Enter your task : ").strip()
-time_bound = input("Is this task time-bound? (yes/no): ").strip().lower()
-priority = input("(high/medium/low): ").strip().lower()
+task = input("Enter your task:").strip()
+time_bound = input("Is it time-bound? (yes/no):").strip().lower()
+priority = input("Priority (high/medium/low):").strip().lower()
         
         
 while True:
@@ -36,6 +36,4 @@ while True:
         print("No more tasks to add. Have a productive day!")
         break
 
-    # commit messages
-    # feat: Implemented a daily reminder program with task management
-    # refactor: Simplified task input and reminder logic
+    
