@@ -7,9 +7,6 @@ print("Daily Reminder Program")
 task = input("Enter your task:").strip()
 time_bound = input("Is it time-bound? (yes/no):").strip().lower()
 priority = input("Priority (high/medium/low):").strip().lower()
-task = input("Enter your task :").strip()
-time_bound = input("Is it time-bound? (yes/no):").strip().lower()
-priority = input("Priority (high/medium/low):").strip().lower()
         
         
 while True:
