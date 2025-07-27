@@ -33,7 +33,7 @@ def main():
     while True:
         choice = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
         
-        input = float(input("Enter temperature in Fahrenheit: "))
+        input = float(input("Enter the temperature to convert:"))
 
         if choice == 'F':
             
