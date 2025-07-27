@@ -1,8 +1,16 @@
 # This script is used to convert temperatures between Celsius and Fahrenheit.
 # It provides a simple command-line interface for users to input temperatures and choose the conversion direction.
 
+'''
+this script is used to convert temperatures between Celsius and Fahrenheit.
+It provides a simple command-line interface for users to input temperatures and choose the conversion direction.
+'''
+
+
 FAHRENHEIT_TO_CELSIUS_FACTOR=5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR=9/5
+
+FAHRENHEIT_TO_CELSIUS_OFFSET = 32
 
 def convert_to_celsius(fahrenheit):
     """
